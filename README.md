@@ -1,1 +1,1 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+This is a very basic app meant to test automating Schema markup w/ Next.js. 
