@@ -1,0 +1,93 @@
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "headline": "2021 Child Tax Credit Top 7 Requirements & Tax Calculator",
+    "description": "The Child Tax Credit can significantly reduce your tax bill if you meet all seven requirements: 1. age, 2. relationship, 3. support, 4. dependent status, 5. citizenship, 6. length of residency and 7. family income. You and/or your child must pass all seven to claim this tax credit. Use our child tax credit calculator to determine your eligibility for tax year 2020 or tax year 2021.",
+    "datePublished": "2018-10-16T00:01:49Z",
+    "dateModified": "2022-10-03T14:42:07Z",
+    "wordcount": "2318",
+    "author": [
+        {
+            "@type": "Person",
+            "name": "TurboTax Expert",
+            "knowsAbout": [
+                "Accounting, Personal Finance, Taxes"
+            ]
+        }
+    ],
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://digitalasset.intuit.com/IMAGE/A3jpjfP0i/childtaxcred_INF15610_small.jpg",
+        "height": 1000,
+        "width": 1500
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "TurboTax",
+        "url": "https://turbotax.intuit.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://turbotax.intuit.com/handlebars/mktg/common/images/intuit/logo-ttcom-article-schema.svg"
+        },        
+        "brand": "TurboTax",
+        "sameAs": [
+            "https://twitter.com/TURBOTAX",
+            "http://www.facebook.com/turbotax",
+            "http://www.youtube.com/user/TurboTax",
+            "https://www.instagram.com/turbotax"
+        ]
+    },
+    "mainEntityOfPage": {
+        "@type": [
+            "WebPage"
+        ],
+        "@id": "https://turbotax.intuit.com/tax-tips/family/7-requirements-for-the-child-tax-credit/L3wpfbpwQ",
+        "breadcrumb": {
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {
+                    "@type": "ListItem",
+                    "position": 1,
+                    "item": {
+                        "@id": "https://turbotax.intuit.com/",
+                        "name": "TurboTax"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "item": {
+                        "@id": "https://turbotax.intuit.com/tax-tools/",
+                        "name": "Tax Calculators & Tips"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "item": {
+                        "@id": "https://turbotax.intuit.com/tax-tools/all-articles-and-videos/",
+                        "name": "Tax Tips Guides & Videos"
+                    }
+                },
+                {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "item": {
+                        "@id": "https://turbotax.intuit.com/tax-tips/family/",
+                        "name": "Family"
+                    }
+                }
+            ]
+        },
+        "reviewedBy": [
+            {
+                "@type": "Person",
+                "name": "TurboTax CPA",
+                "honorificSuffix": "CPA",
+                "knowsAbout": [
+                    "Accounting, Personal Finance, Taxes"
+                ]
+            }
+        ]
+    }
+}

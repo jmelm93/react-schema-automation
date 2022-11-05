@@ -1,4 +1,3 @@
-import { jsonLdScriptProps } from "react-schemaorg";
 import ArticleSchema from "./schemas/Article";
 import FaqPageSchema from "./schemas/FaqPage";
 
@@ -10,20 +9,11 @@ export default function JsonSchemaWrapper({ type, schemaData }) {
         schemaObject = ArticleSchema({ schemaData });
     } 
     if (type === "FAQPage") {
-        return FaqPageSchema({ schemaData });
+        schemaObject = FaqPageSchema({ schemaData });
     }
 
-    let jsonLd = null;
-    if (schemaObject) {
-        jsonLd = {
-            "@context": "https://schema.org",
-            "@type": type,
-            ...schemaObject
-        };
-    }
-
-    console.log('jsonLd: ', jsonLd);
-    return jsonLd
+    // return final schema object
+    return { "@context": "https://schema.org", "@type": type, ...schemaObject }; 
 
 }
 
