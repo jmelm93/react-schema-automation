@@ -1,0 +1,15 @@
+[
+  {
+    "slug": "test1",
+    "title": "The Test 1",
+    "h1": "The Test 1",
+    "short_description": "Description - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "content": "Content - Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "datePublished": "2019-01-01",
+    "dateModified": "2019-01-08",
+    "author": "Sylvia",
+    "authorUrl": "https://www.example.com/sylvia",
+    "images": ["https://digitalasset.intuit.com/IMAGE/A2ZYbmPqf/what-is-6056-health-care-reform_INF27852.jpg", "https://digitalasset.intuit.com/IMAGE/A6WvKEJS6/whatisa1095b_INF27802.jpg"],
+    "schemaTypes": ["Article","Article"]
+  }
+]
