@@ -1,5 +1,4 @@
 import ArticleSchema from "components/schema/schemas/Article";
-// import FaqPageSchema from "components/schema/schemas/FaqPage";
 import PersonSchema from "components/schema/schemas/Person";
 import ImageObjectSchema from "components/schema/schemas/ImageObject";
 import OrganizationSchema from "components/schema/schemas/Organization";
@@ -15,9 +14,6 @@ export default function JsonSchemaWrapper({ schemaType, schemaData=orgSchema, re
     if (schemaType === "Article") {
         schemaObject = ArticleSchema({ schemaData });
     } 
-    // if (schemaType === "FAQPage") {
-    //     schemaObject = FaqPageSchema({ schemaData });
-    // }
     if (schemaType === "Person") {
         schemaObject = PersonSchema({ schemaData });
     }
