@@ -1,22 +1,9 @@
-### Schema Markup Testing w/ Next.js
-
-This is a very basic app meant to test automating Schema markup w/ Next.js. 
-
-### App Structure
-```bash
-< PROJECT ROOT >  
-   |  
-   |-- components/  
-   |    |-- schemas/                        # Directory: Schema Templates  
-   |    |       |-- Article.js              # Template: Article Schema Type 
-   |    |       |-- FAQPage.js              # Template: FAQPage Schema Type 
-   |    |-- JsonSchemaWrapper.js            # Parent Wrapper for the Schema Object
-   |  
-   |-- data/                                # Directory: Mock Data for Testing
-   |    |-- articles.json                   # Test Json Object  
-   |  
-   |-- pages/                                # Directory: Pages for App
-   |    |-- index.js                         # Page: '/' - Test Page  
-   |  
-
-```
+## 2 Examples
+### exSimplifiedTestApp
+> includes simplified version of code with a test app you can deploy for local testing
+> To test, `cd exSimplifiedTestApp` + `npm install` + `npm run dev` to start server
+> The schema logic is found in `exSimplifiedTestApp\components\schemas`
+### exFromLiveApp
+> Includes code that is closer to production-ready
+> Has logic to include variables in the schema markup only if they're properly passed into the component
+> This version is not currently setup with a test app, and is solely the code utilized in the `exFromLiveApp\schemas` component
